@@ -142,15 +142,19 @@
 		background: url('../images/mb-social.png') no-repeat;
 		margin-top: 0;
 		margin-bottom: 0;
+		background-size: contain;
 	}
 	.social-text {
 		padding-top: 35%;
 		@include mq(max_xs) {
-			padding-top: 20px;
+			padding-top: 50px;
 			width: 90%;
 			margin: 0 auto;
 			display: block;
 			text-align: center;
+		}
+		@include mq(max_md) {
+			padding-top: 45%;
 		}
 		h2 {
 			@include style-font(32px,#fff,600);
@@ -160,11 +164,18 @@
 				@include style-font(24px,#fff,600);
 				line-height: 36px;
 			}
+			@include mq(max_md) {
+				text-align: center;
+			}
 		}
 		p {
 			display: flex;
 			@include mq(max_xs) {
 				display: block;
+				margin-bottom: 60px;
+			}
+			@include mq(max_md) {
+				justify-content: center;
 			}
 			a {
 				margin-right: 20px;
@@ -179,15 +190,24 @@
 	.social-img {
 		position: relative;
 		margin-bottom: -40px;
+		@include mq(max_md) {
+			padding-top: 40px;
+		}
 		img {
 			width: 70%;
 			display: block;
+			@include mq(max_md) {
+				margin: 0 auto;
+			}
 		}
 	}
 }
 
 .tournament-block {
 	padding: 100px 0px;
+	@include mq(max_xs) {
+		padding: 0px;
+	}
 	.tournament-title {
 		h2 {
 			@include style-font(32px,#111,600);
@@ -229,41 +249,89 @@
 			&:nth-child(1) {
 				img {
 					width: 62%;
+					@include mq(max_md) {
+						width: 50%;
+					}
+					@include mq(max_xs) {
+						width: 62%;
+					}
 				}
 			}
 			&:nth-child(2) {
 				img {
 					width: 42%;
+					@include mq(max_md) {
+						width: 35%;
+					}
+					@include mq(max_xs) {
+						width: 42%;
+					}
 				}
 			}
 			&:nth-child(3) {
 				img {
 					width: 52%;
+					@include mq(max_md) {
+						width: 45%;
+					}
+					@include mq(max_xs) {
+						width: 52%;
+					}
 				}
 			}
 			&:nth-child(4) {
 				img {
 					width: 42%;
+					@include mq(max_md) {
+						width: 35%;
+					}
+					@include mq(max_xs) {
+						width: 42%;
+					}
 				}
 			}
 			&:nth-child(5) {
 				img {
 					width: 40%;
+					@include mq(max_md) {
+						width: 31%;
+					}
+					@include mq(max_xs) {
+						width: 40%;
+					}
 				}
 			}
 			&:nth-child(6) {
 				img {
 					width: 52%;
+					@include mq(max_md) {
+						width: 45%;
+					}
+					@include mq(max_xs) {
+						width: 52%;
+					}
 				}
 			}
 			&:nth-child(7) {
 				img {
 					width: 47%;
+					@include mq(max_md) {
+						width: 41%;
+					}
+					@include mq(max_xs) {
+						width: 47%;
+					}
 				}
 			}
 			&:nth-child(8) {
 				img {
 					width: 52%;
+					@include mq(max_md) {
+						width: 41%;
+					}
+					@include mq(max_xs) {
+						width: 52%;
+					}
 				}
 			}
 		}
