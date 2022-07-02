@@ -13,7 +13,9 @@
 }
 
 .header-top {
-	background: $bg_primary;
+	background: url('../images/bg-header.png') no-repeat;
+	background-position: center;
+	background-size: cover;
 	.block-header {
 		.header-text {
 			padding-top: 70px;
