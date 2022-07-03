@@ -163,6 +163,7 @@
 			</div>
 	</div>
 
+	<?php include "templates/main-2.php"; ?>
 	<?php include "templates/footer.php"; ?>
 
 </body>

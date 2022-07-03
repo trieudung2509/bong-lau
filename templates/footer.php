@@ -1,5 +1,8 @@
 <footer class="footer">
-	<div class="container">footer</div>
+  <a href="#">
+    <img src="./images/logo.png" alt="logo-footer" />
+  </a>
+  <p class="footer-description">Ứng dụng xem bóng đá trực tuyến hàng đầu Việt Nam!</p>
 </footer>
 <!-- /.footer -->
 
