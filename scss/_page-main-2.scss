@@ -13,6 +13,7 @@ html, body {
   margin-top: 225px;
   @include mq(max_md) {
     margin-top: 80px;
+    margin-bottom: -170px;
   }
   .block-title {
     font-style: normal;
@@ -252,9 +253,8 @@ html, body {
     display: flex;
     justify-content: flex-end;
     position: relative;
-    top: -500px;
     z-index: 2;
-    left: 0;
+    margin-top: -500px;
 
     @include mq(max_md) {
       top: -500px;

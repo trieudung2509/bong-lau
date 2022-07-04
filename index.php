@@ -5,7 +5,7 @@
 			<div class="block-header">
 				<div class="container">
 						<div class="row">
-							<div class="col-lg-6">
+							<div class="col-lg-7">
 								<div class="header-text">
 									<h4>Ứng dụng xem trực tiếp bóng đá chất lượng HD hoàn toàn <span>miễn phí</span> </h4>
 									<p>
@@ -14,7 +14,7 @@
 									<a href="#" class="btn btn-download"> TẢI ỨNG DỤNG NGAY!</a>
 							</div>
 							</div>
-							<div class="col-lg-6">
+							<div class="col-lg-5">
 									<div class="header-right">
 											<img src="images/phone-header.png" alt="">
 									</div>

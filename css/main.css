@@ -171,6 +171,57 @@ button,
 /* -----------------------------------------------------------
 	.footer
 ----------------------------------------------------------- */
+.footer {
+  width: 100%;
+  padding: 65px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #111;
+  margin-top: 150px;
+}
+@media only screen and (max-width: 991px) {
+  .footer {
+    margin-top: 0px;
+  }
+}
+.footer a {
+  text-decoration: none;
+}
+.footer img {
+  display: block;
+  width: 204px;
+  height: 46px;
+}
+.footer .footer-description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+  margin-top: 26px;
+  text-align: center;
+}
+@media only screen and (max-width: 991px) {
+  .footer .footer-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
 /* -----------------------------------------------------------
 	.con-benefit
 ----------------------------------------------------------- */
@@ -180,7 +231,7 @@ button,
   background-size: cover;
 }
 .header-top .block-header .header-text {
-  padding-top: 70px;
+  padding-top: 50px;
 }
 @media only screen and (max-width: 575px) {
   .header-top .block-header .header-text {
@@ -256,7 +307,7 @@ button,
 .header-top .block-header .header-text .btn-download {
   background: #FFD027;
   border-radius: 12px;
-  padding: 15px 20px;
+  padding: 15px 20px 9px;
   font-size: 18px;
   color: #111111;
   font-weight: 600;
@@ -268,7 +319,8 @@ button,
   padding-top: 70px;
 }
 .header-top .header-right img {
-  margin-bottom: -70px;
+  margin-bottom: -100px;
+  width: 100%;
 }
 
 .feature-block {
@@ -309,7 +361,7 @@ button,
   padding: 25px 10px;
 }
 .feature-block .list-feature .feature-item img {
-  width: 30%;
+  width: 18%;
   display: block;
   margin: 0 auto;
 }
@@ -366,6 +418,11 @@ button,
     padding-top: 45%;
   }
 }
+@media only screen and (max-width: 575px) {
+  .social-block .social-text {
+    padding-top: 25%;
+  }
+}
 .social-block .social-text h2 {
   font-size: 32px;
   color: #fff;
@@ -390,11 +447,11 @@ button,
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 70%;
 }
 @media only screen and (max-width: 575px) {
   .social-block .social-text p {
     display: block;
-    margin-bottom: 60px;
   }
 }
 @media only screen and (max-width: 991px) {
@@ -402,10 +459,14 @@ button,
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    margin: 0 auto;
   }
 }
 .social-block .social-text p a {
-  margin-right: 20px;
+  margin-right: 25px;
+}
+.social-block .social-text p a img {
+  width: 100%;
 }
 @media only screen and (max-width: 575px) {
   .social-block .social-text p a {

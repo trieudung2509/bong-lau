@@ -18,7 +18,7 @@
 	background-size: cover;
 	.block-header {
 		.header-text {
-			padding-top: 70px;
+			padding-top: 50px;
 			@include mq(max_xs) {
 				padding-top: 40px;
 			}
@@ -68,7 +68,7 @@
 			.btn-download {
 				background: #FFD027;
 				border-radius: 12px;
-				padding: 15px 20px;
+				padding: 15px 20px 9px;
 				@include style-font(18px,#111111,600);
 				line-height: 27px;
 			}
@@ -80,7 +80,8 @@
     display: block;
     padding-top: 70px;
 		img {
-			margin-bottom: -70px;
+			margin-bottom: -100px;
+			width: 100%;
 		}
 	}
 }
@@ -112,7 +113,7 @@
 			text-align: center;
 			padding: 25px 10px;
 			img {
-				width: 30%;
+				width: 18%;
 				display: block;
 				margin: 0 auto;
 			}
@@ -156,6 +157,9 @@
 		@include mq(max_md) {
 			padding-top: 45%;
 		}
+		@include mq(max_xs) {
+			padding-top: 25%;
+		}
 		h2 {
 			@include style-font(32px,#fff,600);
 			line-height: 48px;
@@ -170,15 +174,19 @@
 		}
 		p {
 			display: flex;
+			width: 70%;
 			@include mq(max_xs) {
 				display: block;
-				margin-bottom: 60px;
 			}
 			@include mq(max_md) {
 				justify-content: center;
+				margin: 0 auto;
 			}
 			a {
-				margin-right: 20px;
+				margin-right: 25px;
+				img {
+					width: 100%;
+				}
 				@include mq(max_xs) {
 					margin-bottom: 20px;
 					display: block;

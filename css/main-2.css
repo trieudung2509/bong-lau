@@ -10,6 +10,7 @@ html, body {
 @media only screen and (max-width: 991px) {
   .why-choose-me {
     margin-top: 80px;
+    margin-bottom: -170px;
   }
 }
 .why-choose-me .block-title {
@@ -30,12 +31,16 @@ html, body {
 .why-choose-me .block-content {
   width: 100%;
   height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 @media only screen and (max-width: 991px) {
   .why-choose-me .block-content {
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
 }
 .why-choose-me .block-content .left-content {
@@ -50,6 +55,8 @@ html, body {
 }
 .why-choose-me .block-content .left-content .content-item {
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-bottom: 40px;
 }
@@ -130,6 +137,8 @@ html, body {
   }
 }
 .why-choose-me .block-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   position: relative;
   top: -150px;
@@ -148,9 +157,15 @@ html, body {
   height: 740px;
   max-width: 888px;
   max-height: 740px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-image: url("../images/image-choose-me-3.png");
   background-size: cover;
   background-position: center center;
@@ -189,10 +204,19 @@ html, body {
   height: 100%;
   top: 0;
   left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   color: #fff;
 }
 @media only screen and (max-width: 991px) {
@@ -251,12 +275,15 @@ html, body {
 .why-choose-me .block-3 {
   width: 100%;
   height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   position: relative;
-  top: -500px;
   z-index: 2;
-  left: 0;
+  margin-top: -500px;
 }
 @media only screen and (max-width: 991px) {
   .why-choose-me .block-3 {
@@ -287,7 +314,8 @@ html, body {
   padding: 72px 0px;
   background: #FFFFFF;
   border: 5px solid #FFBC39;
-  box-shadow: 8px 8px 0px #F6F6F6;
+  -webkit-box-shadow: 8px 8px 0px #F6F6F6;
+          box-shadow: 8px 8px 0px #F6F6F6;
   text-align: center;
 }
 @media only screen and (max-width: 991px) {
@@ -298,10 +326,19 @@ html, body {
     z-index: 10;
     padding: 0;
     padding: 30px 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 .why-choose-me .block-3 .content-wrapper .title {
@@ -324,14 +361,23 @@ html, body {
   }
 }
 .why-choose-me .block-3 .content-wrapper .list-download {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 100%;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 @media only screen and (max-width: 991px) {
   .why-choose-me .block-3 .content-wrapper .list-download {
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 .why-choose-me .block-3 .content-wrapper .list-download .download-item {
@@ -341,7 +387,8 @@ html, body {
   display: block;
   width: 196px;
   height: auto;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .why-choose-me .block-3 .content-wrapper .list-download .download-item:first-child {
   margin-right: 32px;
@@ -352,5 +399,3 @@ html, body {
     margin-bottom: 16px;
   }
 }
-
-/*# sourceMappingURL=main-2.css.map */
