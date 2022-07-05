@@ -229,6 +229,7 @@ button,
   background: url("../images/bg-header.png") no-repeat;
   background-position: center;
   background-size: cover;
+  min-height: 900px;
 }
 .header-top .block-header .header-text {
   padding-top: 50px;
