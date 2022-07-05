@@ -54,19 +54,18 @@
       </div>
     </div>
   </div>
-
   <div class="container block-3">
     <div class="right-content">
-      <div class="content-wrapper">
-        <h3 class="title">Tải Bông Lau ngay thôi!!!!!</h3>
-        <div class="list-download">
-          <a href="#" class="download-item">
-            <img src="./images/image-download-androi.png" alt="" />
-          </a>
-          <a href="#" class="download-item">
-            <img src="./images/image-download-ios.png" alt="" />
-          </a>
-        </div>
+    </div>
+    <div class="content-wrapper">
+      <h3 class="title">Tải Bông Lau ngay thôi!!!!!</h3>
+      <div class="list-download">
+        <a href="#" class="download-item">
+          <img src="./images/image-download-androi.png" alt="" />
+        </a>
+        <a href="#" class="download-item">
+          <img src="./images/image-download-ios.png" alt="" />
+        </a>
       </div>
     </div>
   </div>
