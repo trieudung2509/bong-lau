@@ -14,9 +14,12 @@
 
 .header-top {
 	background: url('../images/bg-header.png') no-repeat;
-	background-position: center;
 	background-size: cover;
+<<<<<<< HEAD
 	min-height: 900px;
+=======
+	background-position: 100% 100%;
+>>>>>>> master
 	.block-header {
 		.header-text {
 			padding-top: 50px;
@@ -140,6 +143,8 @@
 	background-size: cover;
 	margin-top: -150px;
 	padding-bottom: 80px;
+	background-position: 100% 100%;
+	padding-top: 150px;
 	@include mq(max_xs) {
 		background: url('../images/mb-social.png') no-repeat;
 		margin-top: 0;
@@ -147,7 +152,7 @@
 		background-size: contain;
 	}
 	.social-text {
-		padding-top: 35%;
+		padding-top: 20%;
 		@include mq(max_xs) {
 			padding-top: 50px;
 			width: 90%;
